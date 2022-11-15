@@ -48,3 +48,25 @@ transform:2s ease-in-out;
 .menu-bar .fa{
 margin-right:15px;
 }
+.sub-menu_1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu_1{
+    display:block;
+    position:absolute;
+    background-color:aquamarine;
+    margin-top:15px;
+    margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu_1 ul{
+    display:block;
+    margin:10px;
+}
+.menu-bar ul li:hover .sub-menu_1 ul li{
+    width:150px;
+    padding:10px;
+    border-radius:0;
+    text-align:left;
+
+
+}
